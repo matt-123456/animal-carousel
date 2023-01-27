@@ -1,0 +1,68 @@
+import { Category } from "@/lib/shared-types";
+
+export const categories: Category[] = [
+  {
+    id: 1,
+    name: "Dogs",
+    images: [
+      "https://founded.media/hiring/photos/dogs/photo-1477884213360-7e9d7dcc1e48.jpeg",
+      "https://founded.media/hiring/photos/dogs/photo-1534361960057-19889db9621e.jpeg",
+      "https://founded.media/hiring/photos/dogs/photo-1534551767192-78b8dd45b51b.jpeg",
+      "https://founded.media/hiring/photos/dogs/photo-1543466835-00a7907e9de1.jpeg",
+      "https://founded.media/hiring/photos/dogs/photo-1548199973-03cce0bbc87b.jpeg",
+      "https://founded.media/hiring/photos/dogs/photo-1561037404-61cd46aa615b.jpeg",
+      "https://founded.media/hiring/photos/dogs/photo-1576201836106-db1758fd1c97.jpeg",
+      "https://founded.media/hiring/photos/dogs/photo-1581888227599-779811939961.jpeg",
+      "https://founded.media/hiring/photos/dogs/photo-1583511655857-d19b40a7a54e.jpeg",
+      "https://founded.media/hiring/photos/dogs/photo-1587300003388-59208cc962cb.jpeg",
+    ],
+  },
+  {
+    id: 2,
+    name: "Dinosaurs",
+    images: [
+      "https://founded.media/hiring/photos/dinosaurs/photo-1519568262558-dc4b87dd85ca.jpeg",
+      "https://founded.media/hiring/photos/dinosaurs/photo-1525877442103-5ddb2089b2bb.jpeg",
+      "https://founded.media/hiring/photos/dinosaurs/photo-1559999127-b8b7f927dab8.jpeg",
+      "https://founded.media/hiring/photos/dinosaurs/photo-1560148271-00b5e5850812.jpeg",
+      "https://founded.media/hiring/photos/dinosaurs/photo-1568887786489-0662e7f51aab.jpeg",
+      "https://founded.media/hiring/photos/dinosaurs/photo-1570482606740-a0b0baa0e58d.jpeg",
+      "https://founded.media/hiring/photos/dinosaurs/photo-1579197073550-bf44b469a6fe.jpeg",
+      "https://founded.media/hiring/photos/dinosaurs/photo-1583307359900-dbefeb18e3cc.jpeg",
+      "https://founded.media/hiring/photos/dinosaurs/photo-1583307709855-88a955597645.jpeg",
+      "https://founded.media/hiring/photos/dinosaurs/photo-1606856110002-d0991ce78250.jpeg",
+    ],
+  },
+  {
+    id: 3,
+    name: "Cats",
+    images: [
+      "https://founded.media/hiring/photos/cats/14157413946_fea785b4d6_k.jpg",
+      "https://founded.media/hiring/photos/cats/16175483119_bd7374d8a8_h.jpg",
+      "https://founded.media/hiring/photos/cats/13901304865_a444cf4d34_k.jpg",
+      "https://founded.media/hiring/photos/cats/8311701653_49ed80202c_k.jpg",
+      "https://founded.media/hiring/photos/cats/13336301695_3c06dd41cc_k.jpg",
+      "https://founded.media/hiring/photos/cats/38679744435_66279af67c_k.jpg",
+      "https://founded.media/hiring/photos/cats/6393395037_9cda69da1a_b.jpg",
+      "https://founded.media/hiring/photos/cats/6977309082_44102ddf51_b.jpg",
+      "https://founded.media/hiring/photos/cats/11477923503_bbdf86387d_b.jpg",
+      "https://founded.media/hiring/photos/cats/4481336172_7f464f180d_b.jpg",
+    ],
+  },
+  {
+    id: 4,
+    name: "Sharks",
+    images: [
+      "https://founded.media/hiring/photos/sharks/11261840124_dc9ac72bbe_b.jpg",
+      "https://founded.media/hiring/photos/sharks/513197047_2f861d56cb_b.jpg",
+      "https://founded.media/hiring/photos/sharks/2989909952_b59500107e_o.jpg",
+      "https://founded.media/hiring/photos/sharks/4107884442_3baf8985f2_b.jpg",
+      "https://founded.media/hiring/photos/sharks/3822452418_ffa66da89d_o.jpg",
+      "https://founded.media/hiring/photos/sharks/3800013954_20fea3a9c9_b.jpg",
+      "https://founded.media/hiring/photos/sharks/7109693941_250fc6b246_k.jpg",
+      "https://founded.media/hiring/photos/sharks/8592704407_75c3c7ff53_h.jpg",
+      "https://founded.media/hiring/photos/sharks/14730744390_cebc28aa86_k.jpg",
+      "https://founded.media/hiring/photos/sharks/4936728723_91da549b05_b.jpg",
+    ],
+  },
+];
